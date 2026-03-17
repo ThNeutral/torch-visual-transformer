@@ -1,0 +1,19 @@
+{
+	"include": [
+		"utils",
+		"main.py"
+	],
+	"exclude": [
+		"**/__pycache__",
+		"**/*.pyc",
+		".venv",
+		"data",
+		"**/node_modules",
+		"**/.*"
+	],
+	"typeCheckingMode": "basic",
+	"reportMissingImports": true,
+	"reportMissingTypeStubs": false,
+	"pythonVersion": "3.11",
+	"pythonPlatform": "Linux"
+}
