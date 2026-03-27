@@ -5,6 +5,8 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
+    "altair>=6.0.0",
+    "pandas>=3.0.1",
     "requests>=2.32.5",
     "setuptools==81.0",
     "tensorboard>=2.20.0",
