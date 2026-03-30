@@ -1,7 +1,7 @@
 from torch import nn
 
 from .layernorm import LayerNorm
-from .helpers.clone import clones
+from .clone import clones
 
 class Decoder(nn.Module):
 	def __init__(self, layer, N):

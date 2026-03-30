@@ -1,6 +1,6 @@
 from torch import nn
 
-from .helpers.clone import clones
+from .clone import clones
 from .sublayerconnection import SublayerConnection
 
 class DecoderLayer(nn.Module):

@@ -1,7 +1,7 @@
 from torch import nn
 
 from .sublayerconnection import SublayerConnection
-from .helpers.clone import clones
+from .clone import clones
 
 class EncoderLayer(nn.Module):
 	def __init__(self, size: int, self_attn: nn.Module, feed_forward: nn.Module, dropout: float):

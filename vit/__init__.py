@@ -1,1 +1,1 @@
-from .embeddinglayer import EmbeddingLayer
+from .model import make_model
